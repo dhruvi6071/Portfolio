@@ -8,13 +8,17 @@ function AboutMe() {
       
       {/* Image Container */}
       <div className="imgcontainer w-full lg:w-1/2 flex justify-center items-center">
-        <img src={ill4} alt="Developer illustration" className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-4/5 xl:w-3/5 h-auto" />
+        <img 
+          src={ill4} 
+          alt="Developer illustration" 
+          className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-4/5 xl:w-3/5 h-auto"
+        />
       </div>
 
       {/* Text Container */}
       <div className="txtcontainer relative w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
         <div className="text-text1 font-outfit w-full md:w-4/5 lg:w-3/4 mx-auto relative">
-          <p className="title text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 z-10">
+          <p className="title text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 z-10">
             About Me
           </p>
           <p className="text text-base sm:text-lg md:text-xl text-text1 font-roboto z-10 text-justify leading-relaxed px-4 sm:px-6">

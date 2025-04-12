@@ -21,7 +21,7 @@ function Enrichment() {
           <img src={img2} alt="gdsc" className="h-20 w-20 mt-4" />
           <div className="text-xl md:text-2xl text-text1 font-semibold text-center mt-4">Core-Team Member</div>
           <div className="text-text1 font-roboto text-sm md:text-base text-center mt-4">
-            Contributed to organizing technical events suggested by GDSC, gaining valuable insights into event planning, teamwork, and handling critical situations with effective solutions. These experiences have significantly enhanced my organizational and problem-solving skills.
+            Contributed to organizing technical events suggested by GDSC, gaining valuable insights into event planning, and handling critical situations with effective solutions. These experiences have enhanced my organizational and problem-solving skills.
           </div>
         </div>
       </div>
