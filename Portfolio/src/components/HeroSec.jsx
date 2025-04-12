@@ -27,11 +27,11 @@ function HeroSec() {
           alt="el1"
           className="ball1 absolute top-8 sm:top-20 left-2 sm:left-6 lg:left-0 z-0 w-10 sm:w-12 md:w-16"
         />
-        <img
+        {/* <img
           src={el3}
           alt="el1"
           className="ball2 absolute top-28 sm:top-32 left-1/2 transform -translate-x-1/2 z-0 w-10 sm:w-12 md:w-16"
-        />
+        /> */}
       </div>
 
       {/* Image Container */}
