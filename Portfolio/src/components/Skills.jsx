@@ -3,7 +3,7 @@ import tcss from '../assets/TailwindCSS.png';
 import js from '../assets/JavaScriptt.png';
 import react from '../assets/React.png';
 import redux from '../assets/Redux.png';
-import api from '../assets/RestApi.png';
+import api from '../assets/RestAPI.png';
 import firebase from '../assets/Firebase.png';
 import node from '../assets/JavaScript.png';
 import postman from '../assets/PostmanApi.png';
