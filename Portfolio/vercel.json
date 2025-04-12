@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      { "source": "/mini-projects", "destination": "/" },
+      { "source": "/front-end-projects", "destination": "/" },
+      { "source": "/full-stack-projects", "destination": "/" }
+    ]
+  }
+  
