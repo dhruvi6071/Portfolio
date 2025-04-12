@@ -4,7 +4,7 @@ import ill4 from "../assets/dev2.png";
 
 function AboutMe() {
   return (
-    <div id="About%20us" className="sm:px-e8 flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-t from-third to-secondary py-12 lg:py-24 px-6 md:px-12 overflow-x-hidden z-[-1]">
+    <div id="About%20us" className="sm:pb-e8 flex flex-col-reverse lg:flex-row items-center justify-center bg-gradient-to-t from-third to-secondary py-12 lg:py-24 px-6 md:px-12 overflow-x-hidden z-[-1]">
       
       {/* Image Container */}
       <div className="imgcontainer w-full lg:w-1/2 flex justify-center items-center">

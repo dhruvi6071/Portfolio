@@ -15,7 +15,7 @@ import python from '../assets/Python.png';
 function Skills() {
   return (
     <div id="Skills" className="h-full bg-gradient-to-t from-secondary to-third pb-12 overflow-x-hidden">
-      <div className="text-text2 flex justify-center text-6xl font-bold pt-24">
+      <div className="text-text2 flex justify-center text-6xl font-bold pt-24 sm: text-5xl">
         Skills
       </div>
 

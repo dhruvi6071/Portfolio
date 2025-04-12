@@ -27,7 +27,7 @@ const openFullStackProject = () => {
 export default function Projects() {
   return (
     <div id="Projects" className="h-full bg-gradient-to-t from-third to-secondary pb-10 overflow-x-hidden">
-      <div className="flex justify-center text-text2 text-6xl font-bold pt-20 md:pt-40">
+      <div className="flex justify-center text-text2 text-6xl font-bold pt-20 md:pt-40 sm:5xl">
         Projects
       </div>
 

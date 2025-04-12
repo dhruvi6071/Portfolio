@@ -4,7 +4,7 @@ import img2 from "../assets/gdsc.png";
 function Enrichment() {
   return (
     <div id="Achievements" className="h-full bg-gradient-to-t from-secondary to-third pt-24 pb-28 overflow-x-hidden">
-      <div className="flex justify-center text-text2 text-4xl md:text-6xl font-bold pt-20">
+      <div className="flex justify-center text-text2 text-4xl md:text-6xl font-bold pt-20 sm:5xl">
         Enrichment Activities
       </div>
 
