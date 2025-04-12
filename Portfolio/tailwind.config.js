@@ -17,6 +17,9 @@ export default {
         'text1' : '#96A9AD',
         'text2' : '#e1e1da'
 
+      },
+      spacing : {
+        'e8' : '6rem'
       }
     },
   },

@@ -44,7 +44,7 @@ const NavBar = () => {
   // };
 
   return (
-    <header className="py-5 fixed z-10 w-full bg-gradient-to-t from-primary to-secondary shadow-lg">
+    <header className="py-5 fixed z-20 w-full bg-gradient-to-t from-primary to-secondary shadow-lg">
       <nav className="flex justify-between items-center text-xl text-text1 px-6 lg:px-28">
         {/* Brand Name */}
         <a href="/" className="font-bold text-2xl">
