@@ -11,7 +11,7 @@ function AboutMe() {
         <img 
           src={ill4} 
           alt="Developer illustration" 
-          className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-4/5 xl:w-3/5 h-auto"
+          className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-4/5 xl:w-3/5 h-auto hidden sm:block"
         />
       </div>
 
