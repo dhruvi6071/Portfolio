@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Cart from "../assets/miniproject-img/cartfunctionality.png";
-import animation from "../assets/miniproject-img/Animationgame.jpg";
+import animation from "../assets/miniproject-img/AnimationGame.jpg";
 import counter from "../assets/miniproject-img/Counter.png";
 import game from "../assets/miniproject-img/game-logo.png";
 import investment from "../assets/miniproject-img/investment-calculator-logo.png";
