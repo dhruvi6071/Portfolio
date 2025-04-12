@@ -1,0 +1,64 @@
+/* Create the starry background animation */
+.starry-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .starry-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, rgba(0, 0, 0, 0) 10%);
+    pointer-events: none;
+    animation: stars 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes stars {
+    0% {
+      background-size: 10px 10px;
+      opacity: 0.6;
+    }
+    50% {
+      background-size: 20px 20px;
+      opacity: 0.2;
+    }
+    100% {
+      background-size: 10px 10px;
+      opacity: 0.6;
+    }
+  }
+  
+  /* Twinkling stars effect */
+  .starry-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+    pointer-events: none;
+    animation: twinkling 3s infinite ease-in-out;
+  }
+  
+  @keyframes twinkling {
+    0% {
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.1;
+    }
+  }
+  
