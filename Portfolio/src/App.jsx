@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import MiniProject from './components/MiniProject';
 import FrontEnd from './components/FrontEnd';
 import FullStack from './components/FullStack';
+import ScrollToTop from './components/ScrollTop';
 
 function MainLayout(){
   return(
@@ -27,7 +28,9 @@ function MainLayout(){
 
 function App() {
   return (
+
     <Router>  {/* Router should wrap everything */}
+        <ScrollToTop />
       <Routes>
         <Route path='/' element={<MainLayout />} />
         <Route path='/mini-projects' element={<MiniProject />} />
