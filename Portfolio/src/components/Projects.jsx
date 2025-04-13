@@ -2,29 +2,23 @@ import img from '../assets/inventory1.png';
 import img1 from '../assets/idea1.png';
 import img2 from '../assets/project1.png';
 // import { Link } from 'react-router-dom';
-
-const openMiniProject = () => {
-  const newTab = window.open('/mini-projects', '_blank');
-  if (newTab) {
-    newTab.focus(); // Ensures the new tab is focused
-  }
-};
-
-const openFrontEndProject = () => {
-  const newTab = window.open('/front-end-projects', '_blank');
-  if (newTab) {
-    newTab.focus(); // Ensures the new tab is focused
-  }
-};
-
-const openFullStackProject = () => {
-  const newTab = window.open('/full-stack-projects', '_blank');
-  if (newTab) {
-    newTab.focus(); // Ensures the new tab is focused
-  }
-};
+import { useNavigate } from 'react-router-dom';
 
 export default function Projects() {
+
+    const navigate = useNavigate();
+  
+    const openMiniProject = () => {
+      navigate('/mini-projects');
+    };
+  
+    const openFrontEndProject = () => {
+      navigate('/front-end-projects');
+    };
+  
+    const openFullStackProject = () => {
+      navigate('/full-stack-projects');
+    };
   return (
     <div id="Projects" className="h-full bg-gradient-to-t from-third to-secondary pb-10 overflow-x-hidden">
       <div className="flex justify-center text-text2 text-4xl sm:text-3xl md:text-6xl font-bold pt-20 md:pt-40">
