@@ -6,7 +6,7 @@ import img3 from "../assets/Email.png";
 function Footer() {
   return (
     <div id="Contact" className="h-full bg-sixth overflow-x-hidden">
-      <div className="text-text2 flex justify-center items-center pt-14 pb-7 font-bold text-4xl  sm:lg sm:text-center sm:items-center">
+      <div className="flex justify-center text-text2 text-4xl sm:text-3xl md:text-6xl font-bold pt-8 md:pt-40 mb-8">
         Connect With Me
       </div>
       <div className="flex justify-center items-center pb-10">
