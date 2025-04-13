@@ -24,7 +24,7 @@ function Skills() {
         Front-End
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 px-6 md:px-28">
-        {[{ img: react, name: "React.js" }, { img: tcss, name: "TAILWIND CSS" }, { img: js, name: "JAVASCRIPT" }].map((skill, index) => (
+        {[{ img: react, name: "React.js" }, { img: tcss, name: "TAILWIND CSS" }, { img: js, name: "JAVASCRIPT" }, {img : node, name: "Next.js"}].map((skill, index) => (
           <div key={index} className="bg-text1 bg-opacity-20 w-full h-52 rounded-lg flex flex-col items-center justify-center transition-transform transform hover:scale-105">
             <img src={skill.img} alt={`${skill.name}-logo`} className='h-20 w-20 mb-3' />
             <div className='pt-1 pb-1 text-text2 text-base md:text-2xl font-semibold text-opacity-80'>{skill.name}</div>
